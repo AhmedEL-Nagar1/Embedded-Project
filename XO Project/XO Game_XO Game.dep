@@ -1,44 +1,0 @@
-Dependencies for Project 'XO Game', Target 'XO Game': (DO NOT MODIFY !)
-F (.\XO Game.c)(0x67686709)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o ".\xo game.o" --omf_browse ".\xo game.crf" --depend ".\xo game.d")
-I (./headers/tm4c123gh6pm.h)(0x676854CA)
-I (./headers/Nokia5110.h)(0x676854CA)
-I (./headers/TExaS.h)(0x676854CA)
-I (./headers/GameArt.h)(0x676854CA)
-I (./headers/XO Game.h)(0x676854CA)
-I (./headers/Timer.h)(0x67685DF9)
-I (./headers/LED.h)(0x676854CA)
-F (.\drivers\Nokia5110.c)(0x676854CA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
-I (drivers\..\\./headers/Nokia5110.h)(0x676854CA)
-F (.\drivers\TExaS.c)(0x67685DF9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
-I (drivers\..\\./headers/TExaS.h)(0x676854CA)
-F (.\drivers\startup.s)(0x676854CA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\drivers\GPIO.c)(0x67685EAD)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
-I (drivers\..\\./headers/GPIO.h)(0x676854CA)
-I (drivers\..\\./headers/tm4c123gh6pm.h)(0x676854CA)
-I (drivers\..\\./headers/TExaS.h)(0x676854CA)
-I (drivers\..\\./headers/Timer.h)(0x67685DF9)
-I (drivers\../TM4C123GH6PM.h)(0x676854C9)
-I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532C3E12)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
-I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C3E12)
-I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C3E12)
-I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532C3E12)
-I (drivers\.././headers/system_TM4C123.h)(0x676854CA)
-F (.\main.c)(0x67685A49)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (./headers/Nokia5110.h)(0x676854CA)
-I (./headers/TExaS.h)(0x676854CA)
-I (./headers/GPIO.h)(0x676854CA)
-I (./headers/XO Game.h)(0x676854CA)
-I (./headers/Timer.h)(0x67685DF9)
-I (./headers/tm4c123gh6pm.h)(0x676854CA)
-F (.\drivers\Interrupt.c)(0x676854C9)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
-F (.\drivers\Timer.c)(0x67685BFA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
-I (drivers\..\\./headers/tm4c123gh6pm.h)(0x676854CA)
-I (drivers\..\\./headers/Timer.h)(0x67685DF9)
-F (.\drivers\LED.c)(0x676854CA)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\led.o --omf_browse .\led.crf --depend .\led.d)
-I (drivers\..\\./headers/tm4c123gh6pm.h)(0x676854CA)
-I (drivers\..\\./headers/LED.h)(0x676854CA)
-I (drivers\..\\./headers/Timer.h)(0x67685DF9)
-I (drivers\..\\./headers/GPIO.h)(0x676854CA)
-F (.\headers\LED.h)(0x676854CA)()
-F (.\headers\system_TM4C123.h)(0x676854CA)()
