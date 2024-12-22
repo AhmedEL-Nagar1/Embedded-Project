@@ -18,7 +18,7 @@ Embedded processor architecture and programming,I/O and device driver interfaces
 <hr>
 
 ## Youtube Video:
-[XO Project Video]()
+[XO Project Video](https://www.youtube.com/watch?v=Za3DX88VvgU)
 <hr>
 
 
