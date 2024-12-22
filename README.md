@@ -17,3 +17,9 @@ Embedded processor architecture and programming,I/O and device driver interfaces
 3. Techniques to interface to the real world
 <hr>
 
+## Youtube Video:
+[XO Project Video]()
+<hr>
+
+
+
